@@ -2,7 +2,11 @@ import 'package:flutter/material.dart';
 
 import 'application/kata_service.dart';
 import 'domain/repositories/kata_repository.dart';
+import 'ui/kihon-drills.dart';
+import 'ui/kumite-drills.dart';
 import 'ui/random-kata-page.dart';
+import 'ui/settings.dart';
+import 'ui/videos.dart';
 
 void main() {
   runApp(MyKarateTrainingApp());
@@ -73,54 +77,6 @@ class HomePage extends StatelessWidget {
           ],
         ),
       ),
-    );
-  }
-}
-
-class KihonDrillsPage extends StatelessWidget {
-  const KihonDrillsPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Kihon Drills')),
-      body: Center(child: Text('Kihon Drills Page')),
-    );
-  }
-}
-
-class KumiteDrillsPage extends StatelessWidget {
-  const KumiteDrillsPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Kumite Drills')),
-      body: Center(child: Text('Kumite Drills Page')),
-    );
-  }
-}
-
-class VideosPage extends StatelessWidget {
-  const VideosPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Videos')),
-      body: Center(child: Text('Videos Page')),
-    );
-  }
-}
-
-class SettingsPage extends StatelessWidget {
-  const SettingsPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Settings')),
-      body: Center(child: Text('Settings Page')),
     );
   }
 }

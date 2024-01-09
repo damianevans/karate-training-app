@@ -57,13 +57,15 @@ class _RandomKataPage extends State<RandomKataPage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget> [
-                Padding(padding: EdgeInsets.all(15.0), 
-                child: 
-                  AutoSizeText('${_currentKata.name}',
-                        style: const TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
-                        maxLines: 2,
-                      ) 
-                    ),               
+                Flexible(
+                    child: Padding(
+                        padding: EdgeInsets.all(15.0),
+                        child: AutoSizeText(
+                          '${_currentKata.name}',
+                          style: const TextStyle(
+                              fontSize: 50, fontWeight: FontWeight.bold),
+                          maxLines: 2,
+                        ))),
               ]
             ),
             Row(
