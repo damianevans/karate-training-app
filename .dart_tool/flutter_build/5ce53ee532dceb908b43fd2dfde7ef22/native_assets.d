@@ -1,0 +1,1 @@
+ C:\\projects\\mobileApps\\karate-training-app\\.dart_tool\\flutter_build\\5ce53ee532dceb908b43fd2dfde7ef22\\native_assets.yaml: 

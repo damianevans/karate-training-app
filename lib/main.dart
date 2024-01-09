@@ -1,21 +1,28 @@
 import 'package:flutter/material.dart';
 
+import 'application/kata_service.dart';
+import 'domain/repositories/kata_repository.dart';
+import 'ui/random-kata-page.dart';
+
 void main() {
-  runApp(MyApp());
+  runApp(MyKarateTrainingApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyKarateTrainingApp extends StatelessWidget {
+  final KataService _kataService = KataService(KataRepository());
+
+  MyKarateTrainingApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Karate App',
+      title: 'Karate Training App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomePage(),
       routes: {
-        '/randomKata': (context) => RandomKataPage(),
+        '/randomKata': (context) => RandomKataPage(_kataService),
         '/kihonDrills': (context) => KihonDrillsPage(),
         '/kumiteDrills': (context) => KumiteDrillsPage(),
         '/videos': (context) => VideosPage(),
@@ -26,6 +33,8 @@ class MyApp extends StatelessWidget {
 }
 
 class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -68,18 +77,9 @@ class HomePage extends StatelessWidget {
   }
 }
 
-// Dummy pages for demonstration purposes
-class RandomKataPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Random Kata')),
-      body: Center(child: Text('Random Kata Page')),
-    );
-  }
-}
-
 class KihonDrillsPage extends StatelessWidget {
+  const KihonDrillsPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -90,6 +90,8 @@ class KihonDrillsPage extends StatelessWidget {
 }
 
 class KumiteDrillsPage extends StatelessWidget {
+  const KumiteDrillsPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -100,6 +102,8 @@ class KumiteDrillsPage extends StatelessWidget {
 }
 
 class VideosPage extends StatelessWidget {
+  const VideosPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -110,6 +114,8 @@ class VideosPage extends StatelessWidget {
 }
 
 class SettingsPage extends StatelessWidget {
+  const SettingsPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
