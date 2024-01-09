@@ -1,6 +1,6 @@
-# Hello World
+# Karate Training App
 
-A new Flutter project created with FlutLab - https://flutlab.io
+An app to help with your Shotokan Karate training. Written using flutter
 
 ## Getting Started
 

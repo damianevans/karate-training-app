@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+application
+INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml:3:4-33:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\927981957ccf7e7073ab83a42b138541\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\927981957ccf7e7073ab83a42b138541\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\admin\.gradle\caches\transforms-3\2303067aea81bad8878c066612b0f4f2\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\admin\.gradle\caches\transforms-3\2303067aea81bad8878c066612b0f4f2\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\admin\.gradle\caches\transforms-3\51652c6b45ffabda4b0d624e6f8ce453\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\admin\.gradle\caches\transforms-3\51652c6b45ffabda4b0d624e6f8ce453\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\admin\.gradle\caches\transforms-3\2303067aea81bad8878c066612b0f4f2\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\74009bfffebe4749ae350339b3cd3b24\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\927981957ccf7e7073ab83a42b138541\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\admin\.gradle\caches\transforms-3\f8a7280cd149a5ce287b0f8bac60282b\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\e3d2ae5f6d57ddbe12c72dfe670c87e9\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\4242c58d3d2165dbc9d1423735df8210\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\800eea6a9b7f294ee6327b3e342106ad\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\0836d31738e538a724c60c74b436d771\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\admin\.gradle\caches\transforms-3\2303067aea81bad8878c066612b0f4f2\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-3\544a6928cf6fc7c84583a524b0e1bb18\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\84ca45d82e340c86302f8511e110ec93\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-3\fcf34c497be9dfd8d9a99b8e2d864753\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-3\dcbf46c6d20f324aba2e2de993413a7c\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\63575301ee341e3787d68e25ba419600\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-3\e61cb567ddc75d4f05ab9228177153a6\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\admin\.gradle\caches\transforms-3\51652c6b45ffabda4b0d624e6f8ce453\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\admin\.gradle\caches\transforms-3\dece40130326ee8f36d6d2a40a43450d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\admin\.gradle\caches\transforms-3\dfbdb5ef2667ce0c272fc3a3897c2c30\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml:2:5-37
+		INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\74009bfffebe4749ae350339b3cd3b24\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\74009bfffebe4749ae350339b3cd3b24\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\927981957ccf7e7073ab83a42b138541\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\927981957ccf7e7073ab83a42b138541\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\admin\.gradle\caches\transforms-3\f8a7280cd149a5ce287b0f8bac60282b\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\admin\.gradle\caches\transforms-3\f8a7280cd149a5ce287b0f8bac60282b\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\e3d2ae5f6d57ddbe12c72dfe670c87e9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\e3d2ae5f6d57ddbe12c72dfe670c87e9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\4242c58d3d2165dbc9d1423735df8210\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\4242c58d3d2165dbc9d1423735df8210\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\800eea6a9b7f294ee6327b3e342106ad\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\800eea6a9b7f294ee6327b3e342106ad\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\0836d31738e538a724c60c74b436d771\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\0836d31738e538a724c60c74b436d771\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\admin\.gradle\caches\transforms-3\2303067aea81bad8878c066612b0f4f2\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\admin\.gradle\caches\transforms-3\2303067aea81bad8878c066612b0f4f2\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-3\544a6928cf6fc7c84583a524b0e1bb18\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-3\544a6928cf6fc7c84583a524b0e1bb18\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\84ca45d82e340c86302f8511e110ec93\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\84ca45d82e340c86302f8511e110ec93\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-3\fcf34c497be9dfd8d9a99b8e2d864753\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-3\fcf34c497be9dfd8d9a99b8e2d864753\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-3\dcbf46c6d20f324aba2e2de993413a7c\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-3\dcbf46c6d20f324aba2e2de993413a7c\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\63575301ee341e3787d68e25ba419600\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\63575301ee341e3787d68e25ba419600\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-3\e61cb567ddc75d4f05ab9228177153a6\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-3\e61cb567ddc75d4f05ab9228177153a6\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\admin\.gradle\caches\transforms-3\51652c6b45ffabda4b0d624e6f8ce453\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\admin\.gradle\caches\transforms-3\51652c6b45ffabda4b0d624e6f8ce453\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\admin\.gradle\caches\transforms-3\dece40130326ee8f36d6d2a40a43450d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\admin\.gradle\caches\transforms-3\dece40130326ee8f36d6d2a40a43450d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\admin\.gradle\caches\transforms-3\dfbdb5ef2667ce0c272fc3a3897c2c30\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\admin\.gradle\caches\transforms-3\dfbdb5ef2667ce0c272fc3a3897c2c30\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\projects\mobileApps\karate-training-app\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\projects\mobileApps\karate-training-app\android\app\src\debug\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from C:\projects\mobileApps\karate-training-app\android\app\src\debug\AndroidManifest.xml:6:22-64
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\927981957ccf7e7073ab83a42b138541\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\927981957ccf7e7073ab83a42b138541\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\927981957ccf7e7073ab83a42b138541\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\927981957ccf7e7073ab83a42b138541\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\927981957ccf7e7073ab83a42b138541\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\admin\.gradle\caches\transforms-3\927981957ccf7e7073ab83a42b138541\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
