@@ -16,6 +16,7 @@ class MyKarateTrainingApp extends StatelessWidget {
   final KataService _kataService = KataService(KataRepository());
 
   MyKarateTrainingApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -24,22 +25,46 @@ class MyKarateTrainingApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: HomePage(_kataService),
       routes: {
         '/randomKata': (context) => RandomKataPage(_kataService),
         '/kihonDrills': (context) => KihonDrillsPage(),
         '/kumiteDrills': (context) => KumiteDrillsPage(),
         '/videos': (context) => VideosPage(),
-        '/settings': (context) => SettingsPage(),
+        '/settings': (context) => SettingsPage(_kataService),
       },
     );
   }
 }
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class HomePage extends StatefulWidget {
+  final KataService _kataService;
+  const HomePage(this._kataService, {super.key});
+
+    @override
+    _HomePageState createState() => _HomePageState(_kataService);
+}
+
+class _HomePageState extends State<HomePage> {
+
+  final KataService _kataService;
+  
+  _HomePageState(this._kataService);
 
   @override
+  void initState() {
+    super.initState();
+    _initDatabase();
+  }
+
+  Future<void> _initDatabase() async {
+    await _kataService.initialiseDatabase();
+
+  }
+
+
+
+    @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -48,19 +73,21 @@ class HomePage extends StatelessWidget {
       body: GridView.count(
         crossAxisCount: 2,
         children: [
-          _buildGridItem(context, 'Random Kata', Icons.star, '/randomKata'),
-          _buildGridItem(
+          buildGridItem(context, 'Random Kata', Icons.star, '/randomKata'),
+          buildGridItem(
               context, 'Kihon Drills', Icons.fitness_center, '/kihonDrills'),
-          _buildGridItem(
+          buildGridItem(
               context, 'Kumite Drills', Icons.sports_mma, '/kumiteDrills'),
-          _buildGridItem(context, 'Videos', Icons.video_library, '/videos'),
-          _buildGridItem(context, 'Settings', Icons.settings, '/settings'),
+          buildGridItem(context, 'Videos', Icons.video_library, '/videos'),
+          buildGridItem(context, 'Settings', Icons.settings, '/settings'),
         ],
       ),
     );
-  }
 
-  Widget _buildGridItem(
+  
+  }
+  
+    Widget buildGridItem(
       BuildContext context, String title, IconData icon, String route) {
     return GestureDetector(
       onTap: () {

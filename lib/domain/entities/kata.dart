@@ -9,6 +9,6 @@ class Kata {
     name = json['name'];
     kanji = json['kanji'];
     description = json['description'];
-    selected = json['selected'];
+    selected =  json['selected'] == 1 ? true : false;
   }
 }
