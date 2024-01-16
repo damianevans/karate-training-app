@@ -1,12 +1,32 @@
 import 'dart:convert';
+import 'dart:io';
+import 'package:karate_app/infrastructure/sqlite_provider.dart';
+
 import '../entities/kata.dart';
-import 'package:flutter/services.dart';
+import 'package:path_provider/path_provider.dart';
 
 class KataRepository {
+  final SqliteProvider _sqliteProvider = SqliteProvider();
+
+  Future<String> get _localPath async {
+    final directory = await getApplicationDocumentsDirectory();
+    return directory.path;
+  }
+
+  Future<File> get _localFile async {
+    final path = await _localPath;
+    return File('$path/data/katas.json');
+  }
+
+
   Future<List<Kata>> getAllKatas() async {
     try {
-      final result = await readJsonFile();
-      return result;
+      var dbResult = await _sqliteProvider.getAllKatas();
+      if(dbResult == null || dbResult.length == 0) {
+        throw Exception("No Data in Katas table");
+      }
+      List<Kata> allKatas = List.generate(dbResult.length, (index) => Kata.fromJson(dbResult[index]));
+      return allKatas;
     } catch (error) {
       throw Exception(error);
     }
@@ -17,11 +37,10 @@ class KataRepository {
     return allKatas.where((kata) => kata.selected == true).toList();
   }
 
-  Future<List<Kata>> readJsonFile() async {
+  Future<void> update(Kata kata) async {
     try {
-      final kataJson = await rootBundle.loadString('assets/katas.json');
-      return (json.decode(kataJson) as List).map((item) => Kata.fromJson(item)).toList();
-    } catch (error) {
+      await _sqliteProvider.updateKata(kata);      
+    } catch(error) {
       throw Exception(error);
     }
   }
